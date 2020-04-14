@@ -1,0 +1,141 @@
+ul {
+	list-style: none;
+}
+
+.navbar-brand img {
+	height: 2rem;
+	padding-right: 0.5rem
+}
+
+.boxline {
+	padding: 2em 1em;
+	margin: 2em 0;
+	background: rgb(226, 226, 226);
+	border: solid 1px #616060;
+	border-radius: 10px;
+}
+
+
+.navbar {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: .8rem;
+    opacity: 0.8;
+}
+.navbar-toggler:hover {
+    opacity: 0;
+}
+.navbar-nav li {
+	padding-right: 0.7rem
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #28dab0;
+}
+
+
+
+.home-inner {
+    background-image: url(/householdAccountsSystem/img/bgImage.jpg);
+    display: block;
+}
+
+.login-inner {
+    background-image: url(/householdAccountsSystem/img/login.jpg);
+}
+.caption {
+	width: 100%;
+	max-width: 100%;
+	position: absolute;
+	top: 38%;
+	color: white;
+	z-index: 1;
+}
+
+
+
+.history h1 {
+	padding-top:1rem;
+	padding-bottom:1rem;
+	margin-bottom: 0px;
+}
+.table .thead-dark th {
+    background-color: #6a6c6f;
+    border-color: #6a6d71;
+}
+.history .bg-dark {
+	background-color: #1a2025 ;
+}
+.history tr {
+    background-color: #f1f1f1;
+}
+
+
+
+.expenceTotal {
+    padding: 0 50px 100px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+
+
+.chart1 {
+	width: 50%;
+}
+
+
+
+.budget {
+	padding: 50px 0 50px;
+}
+
+
+
+.total {
+	padding: 50px 0 50px;
+}
+
+
+
+.addItem {
+	padding: 50px 0 50px;
+}
+.addItem form .btn:hover{
+    background-color: #747577;
+}
+.addItem form .btn{
+    background-color: #c7c7c7;
+}
+
+
+
+.addBudget {
+	padding: 50px 0 50px;
+}
+.addBudget form .btn:hover{
+    background-color: #747577;
+}
+.addBudget form .btn{
+    background-color: #c7c7c7;
+}
+
+
+.boxline h2 {
+	margin-bottom: 3rem;
+}
+
+
+.addItem .btn, .addBudget .btn {
+	background-color: #ffe882 ;
+	color: rgb(255, 255, 255);
+}
+.addItem .btn:hover, .addBudget .btn:hover {
+    background-color: #ffd900;
+}
+.addNewExpenceForm .btn:hover{
+    background-color: #747577;
+}
+.addNewExpenceForm .btn{
+    background-color: #c7c7c7;
+}
+
